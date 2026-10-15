@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // let user = {
+      //     name: "aaaaa",
+      //     age: 23
+      // }
+      // console.log(user);
+      // let fruits = ["банна","апельсин","мандарин"]
+      // console.log(fruits[1]);
+      //   let cars = ["BMW", "AUDI", "MERSEDES"];
+      //   console.log(cars.length);
+      //   for(let i = 0; i < cars.length ; i++){
+      //     console.log([i]);
+      //   }
+      //   let user = [1 , 2 , 3 ,4];
+      //   console.log(user.length);
+      //   for(let i = 0 ; i < user.length; i++){
+      //   console.log(user[i]);
+      // }
+      //   function fruitsCount(array = []) {
+      //     let count = 0;
+
+      //     for (let i = 0; i < array.length; i++) {
+      //       console.log(array[i]);
+      //       count++;
+      //     }
+      //     console.log("Количество фруктов :" + count);
+      //   }
+      //   fruitsCount(["Банан", "апельсин", "яблокоо", "киви"]);
+
+      //   function carsCount(array = []) {
+      //     let count = 0;
+      //     for (let i = 0; i < array.length; i++) {
+      //       console.log(array[i]);
+      //       count++;
+      //     }
+      //     console.log("Количество машин :" + count);
+      //   }
+      //   carsCount(["bentli", "mersedes", "audi", "bmw"]);
+
+      //   function carsCount(array = []) {
+      //     // объявляем функцию carsCount с параметром array (по умолчанию пустой массив)
+      //     let count = 0; // создаём переменную count и задаём ей значение 0 (счётчик машин)
+      //     for (let i = 0; i < array.length; i++) {
+      //       // цикл for: i начинается с 0, идёт пока i меньше длины массива, каждый раз i увеличивается на 1
+      //       console.log(array[i]); // выводим в консоль текущий элемент массива (машину под индексом i)
+      //       count++; // увеличиваем счётчик count на 1
+      //     }
+      //     console.log("Количество машин :" + count); // после цикла выводим в консоль строку "Количество машин :" и число count
+      //   }
+
+      //   carsCount(["bentli", "mersedes", "audi", "bmw"]); // вызываем функцию carsCount и передаём ей массив из 4 машин
+
+      // методы массива
+
+      // Push() Добавляет элемент в конец массива://
+      //     let cars = ["bentli", "mersedes", "audi"];
+      //    //push() добавляет элемент в конец массива:
+      //     cars.push("LADA");
+      //     console.log(cars);
+      //         //pop( )Удаляет последний элемент массива:
+      //     cars.pop();
+      //     console.log(cars);
+
+      // unshift() добавляет  элеммент в начало массива
+      // let cars2 = ["bentli", "mersedes", "audi"];
+      // cars2.unshift("LADA");
+      //   console.log(cars2);
+      //   //удаляет элемент с начало массива
+      //   cars2.shift()
+
+      // многомерный массив
+      // let fruits = [
+      //   ["мандарин","апельсин","киви",["иван","мага",2,true,["SDFSF","FDFSD",24,"DSAD",["SADA","FDFG",1,true,["DFSF","HGFH",3,false,["DSFS","FDS",36,false,["DSFS","SDFSF",7,true,["DSAZ","HGHF",9,"FDSSF",["DSFFS","GHJGHG",38,"DSFFS"]]]]]]]]]
+      //   ["иван","мага",2,true]
+      // ]
+      // console.log(fruits[0][1][2][3][0][1][2][3][4][0][1]);
+      // let users = [
+      //   {
+      //     name:"maga",
+      //     age:23
+      //   },
+      //   {
+      //     name:"alex",
+      //     age:30,
+      //     cars:["mersedes","mersedes"]
+      //   },
+      //   {
+      //     name:"musa",
+      //     age:24
+      //   }
+      // ]
+      // console.log(users[2].name);
+
+      // users[2].name = "иван"
+      // console.log(users[2].name);
+
+      // ------------ toString - метод который преобразует массив в строку
+      // let cars = ["Mersedes","bmw","audi"]
+      // console.log(cars.toString());
+
+      //-------------------сравнение массивов------------------------------------------
+      console.log({} == {});//false
+      console.log([0] == [0]);//false
+      
+      
+      
+    </script>
+  </body>
+</html>
